@@ -3,15 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="BowlingGameTest">
+      <class name="BowlingTestMethod">
         <methods>
-          <include name="testOneSpare"/>
-          <include name="testZero"/>
-          <include name="testOneStrike"/>
-          <include name="testPerfectGame"/>
+          <include name="spare_ball"/>
+          <include name="strike_ball"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- BowlingGameTest -->
+      </class> <!-- BowlingTestMethod -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
